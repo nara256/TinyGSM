@@ -304,7 +304,7 @@ class TinyGsmSim7600 : public TinyGsmModem<TinyGsmSim7600>,
 
     // Set the external authentication
     if (user && strlen(user) > 0) {
-      sendAT(GF("+CGAUTH=1,0,\""), user, GF("\",\""), pwd, '"');
+      sendAT(GF("+CGAUTH=1,3,\""), pwd, GF("\",\""), user, '"');
       waitResponse();
     }
 
