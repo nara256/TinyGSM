@@ -1,3 +1,7 @@
+## nara256 memo
+SIMCOM SIM7600使用時のATコマンドが間違っており、APNに対するユーザ/パスワードが必要な場合に認証が通らない問題があったので、修正してあります。
+
+---
 ![TinyGSM logo](https://cdn.rawgit.com/vshymanskyy/TinyGSM/d18e93dc51fe988a0b175aac647185457ef640b5/extras/logo.svg)
 
 A small Arduino library for GSM modules, that just works.
